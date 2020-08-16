@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+	width:100%;
+	height:100%;
+	min-width:1200px;
+	min-height:600px;
+	overflow:hidden;
+}
+body {
+	position:relative;
+	font-family:"Microsoft Yahei", Arial, sans-serif;
+	background:rgb(40, 30, 47) url("/img/bg.png") 0 0 / 100% 100% no-repeat;
+}
+#header{
+    height: 72px;
+    position: relative;
+    background: rgb(40, 30, 47) url("/img/header.png") 0 0 / 100% 100% no-repeat;
+}
+.header-title{
+    color: #fff;
+    line-height: 64px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+}
+.header-info {position:absolute;top:32px;font-size:18px;color:#73aae5;}
+.header-info-l {left:20px;}
+.header-info-r {right:20px;}
+
+
+
+.container{
+    /* height: 100%; */
+    position: absolute;
+    top: 72px;
+    bottom: 22px;
+    left: 0;
+    right: 0;
+    /* background-color: rosybrown; */
+    display: flex;
+    flex-direction: column;
+}
+.container-top{
+    height: 50%;
+    display: flex;
+}
+.container-top-l{
+    flex: 1;
+    /* background-color: salmon; */
+    height: 100%;
+}
+.container-top-c{
+    flex: 1;
+    height: 100%;
+}
+.container-top-r{
+    flex: 1;
+    height: 100%;
+}
+.container-bottom{
+    height: 50%;
+    display: flex;
+}
+.container-bottom-l{
+    flex: 2;
+    /* background-color: honeydew; */
+}
+.container-bottom-r{
+    flex: 1;
+    /* background-color:#f9c922; */
+}
+.charts-title{
+    font-size: 22px;
+    color: #9aa8d4;
+    height: 32px;
+    font-weight: 400;
+}
+.charts-cont{
+    display: flex;
+    justify-content: space-between ;
+    padding:0 20px 10px;
+    /* height: 400px; */
+    height: 100%;
+}
+.charts-cont-left{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    height: 100%;
+}
+.charts-cont-right{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.charts-cont-item{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.charts-item-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+.com-num{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+.com-name{
+    color: #b0c2f9;
+}
+.charts-cont-item{
+    display: flex;
+    justify-content: space;
+}
+.charts-cont-item img{
+    width: 30px;
+    height: 30px;
+}
+#footer {
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	height:28px;
+	background:url("/img/footer.png") 0 0 / 100% 100% no-repeat;
+}
+.charts-warp{
+    height: 100%;
+}

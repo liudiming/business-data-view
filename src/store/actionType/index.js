@@ -1,0 +1,3 @@
+export const INIT_LIST_ACTION = 'INIT_LIST_ACTION'
+export const ECHARTS_DATA = 'ECHARTS_DATA'
+export const ECHARTS_OPTION = 'ECHARTS_OPTION'
