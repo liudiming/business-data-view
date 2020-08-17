@@ -94,11 +94,6 @@ const defaultState = {
                 color:"rgba(160, 179, 247, 1)"
             }
         },
-        toolbox: {
-            feature: {
-                saveAsImage: {}
-            }
-        },
         series: [{
             name:"市价总值",
             data: [120, 200, 150, 80, 70, 110, 130],
